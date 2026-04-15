@@ -8,7 +8,7 @@ const Works = () => {
 
   // 🔥 API-dən data çəkirik
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/works/")
+    fetch("https://yusif-temir-tikinti-backend.onrender.com/api/works/")
       .then((res) => res.json())
       .then((res) => {
         setData(res);
